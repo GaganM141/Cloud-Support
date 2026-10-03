@@ -1,0 +1,801 @@
+ticket_id,subject,email_text,category
+TKT-10697,EC2 performance issue,Production EC2 instance has been running at very high CPU for teh last 3 hours. Please check and advise.,EC2_Performance
+TKT-10668,Certificate renewal required,Certificate expiry notification received for portal.company.com.,Certificate_Issue
+TKT-10064,Increase cloud resources,Please increase the EC2 instance capacity for the production workload. Please check and advise.,Resource_Request
+TKT-10534,S3 permission issue,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10067,VPN connectivity problem,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10622,S3 AccessDenied,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10347,IPsec tunnel failure,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10491,Site-to-site VPN issue,VPN tunnel has gone down and traffic between teh networks is failing.,VPN_Issue
+TKT-10761,CPU alarm,We are seeing high CPU usage on the EC2 server i-694691. Please investigate.,EC2_Performance
+TKT-10457,EC2 performance issue,EC2 performance has degraded and the instance is reporting unusually high CPU utilization. Thanks.,EC2_Performance
+TKT-10066,EC2 login failure,Unable to connect to EC2 instance i-389666 using SSH.,EC2_Access
+TKT-10287,Azure VM not responding,Please investigate the connectivity issue with Azure VM AZ-APP-01. Thanks.,Azure_VM_Issue
+TKT-10636,TLS certificate alert,The SSL certificate for portal.company.com expires in 10 days. We noticed this today.,Certificate_Issue
+TKT-10068,HTTPS certificate issue,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10328,Request for additional capacity,The current capacity is not sufficient for the expected traffic. Please increase resources. Please let us know the next steps.,Resource_Request
+TKT-10396,Certificate renewal required,Please renew the certificate for app.example.com before it expires.,Certificate_Issue
+TKT-10245,Unhealthy host alarm,We received an AWS notification regarding an unhealthy host count alarm.,CloudWatch_Alert
+TKT-10378,Unable to access EC2,We cannot access the production EC2 server from the jump server. Kindly investigate ASAP.,EC2_Access
+TKT-10611,VPN connectivity problem,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10527,Azure VM not responding,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10659,IPsec tunnel failure,Both VPN tunnels are showing down from the AWS side. Please check and advise.,VPN_Issue
+TKT-10530,Unable to access EC2,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10623,Azure server issue,The Azure server has stopped responding and users cannot access the application. Thanks.,Azure_VM_Issue
+TKT-10722,Server connectivity issue,We are getting a connection refused error while trying to access teh instance. This is impacting users.,EC2_Access
+TKT-10361,Production server slow,WE ARE SEEING HIGH CPU USAGE ON TEH EC2 SERVER I-763653. PLEASE INVESTIGATE.,EC2_Performance
+TKT-10031,Azure server issue,Please investigate the connectivity issue with Azure VM APP-VM-01.,Azure_VM_Issue
+TKT-10261,Unhealthy host alarm,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10638,S3 permission issue,The S3 bucket is reachable but teh application does not have permission to access objects.,S3_Access
+TKT-10747,VPN connectivity problem,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10571,IPsec tunnel failure,Both VPN tunnels are showing down from teh AWS side.,VPN_Issue
+TKT-10216,Increase cloud resources,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10079,VM connectivity problem,Please investigate the connectivity issue with Azure VM WEB-VM-02.,Azure_VM_Issue
+TKT-10579,VPN connectivity problem,The site-to-site VPN tunnel between our office and AWS is down. Kindly investigate ASAP.,VPN_Issue
+TKT-10384,Additional compute required,Please increase the EC2 instance capacity for the production workload.,Resource_Request
+TKT-10040,Increase cloud resources,Requesting an increase in AWS compute resources for the application.,Resource_Request
+TKT-10024,Additional compute required,PLEASE PROVISION ADDITIONAL CLOUD CAPACITY FOR THE PRODUCTION ENVIRONMENT.,Resource_Request
+TKT-10693,AWS alarm notification,The CloudWatch alarm has changed to ALARM state repeatedly.,CloudWatch_Alert
+TKT-10399,Azure server issue,Please investigate the connectivity issue with Azure VM PROD-VM-03.,Azure_VM_Issue
+TKT-10797,Unhealthy host alarm,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10742,Unable to access S3,We are unable to upload files to the S3 bucket due to an access denied error. Please let us know the next steps.,S3_Access
+TKT-10140,SSL certificate expiry,We received an alert that teh TLS certificate is approaching expiry.,Certificate_Issue
+TKT-10251,VPN tunnel down,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10175,Azure server issue,WE CANNOT CONNECT TO TEH AZURE VM AFTER THE RESTART.,Azure_VM_Issue
+TKT-10324,SSL certificate expiry,Certificate expiry notification received for portal.company.com.,Certificate_Issue
+TKT-10596,HTTPS certificate issue,The SSL certificate for api.company.com expires in 2 days.,Certificate_Issue
+TKT-10526,S3 permission issue,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10424,Request for additional capacity,We need additional compute capacity for the upcoming workload. This is impacting users.,Resource_Request
+TKT-10597,Unhealthy host alarm,WE RECEIVED A CLOUDWATCH ALARM FOR UNHEALTHY HOSTS IN THE PRODUCTION ENVIRONMENT.,CloudWatch_Alert
+TKT-10605,Monitoring alert,CloudWatch is showing an alarm state for the application monitoring metric.,CloudWatch_Alert
+TKT-10535,Azure VM unreachable,Please investigate the connectivity issue with Azure VM APP-VM-01.,Azure_VM_Issue
+TKT-10266,Server connectivity issue,EC2 instance i-373216 is running but SSH connection is failing.,EC2_Access
+TKT-10110,Unable to access S3,The application cannot read objects from teh S3 bucket.,S3_Access
+TKT-10667,IPsec tunnel failure,PLEASE CHECK THE SITE-TO-SITE VPN. THE TUNNEL STATUS CHANGED TO DOWN. PLEASE LET US KNOW THE NEXT STEPS.,VPN_Issue
+TKT-10295,Azure server issue,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10337,CPU alarm,Our application on EC2 is slow and CPU usage is continuously above normal levels. This is impacting users.,EC2_Performance
+TKT-10369,CPU alarm,We are seeing high CPU usage on the EC2 server i-735388. Please investigate.,EC2_Performance
+TKT-10447,VM connectivity problem,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10334,S3 upload failure,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10199,Azure server issue,Please investigate the connectivity issue with Azure VM AZ-APP-01.,Azure_VM_Issue
+TKT-10169,Production server slow,EC2 instance i-941814 in prod is showing CPU utilization above 92%.,EC2_Performance
+TKT-10482,EC2 login failure,We cannot access the production EC2 server from the jump server. Thanks.,EC2_Access
+TKT-10724,TLS certificate alert,Please renew the certificate for api.company.com before it expires.,Certificate_Issue
+TKT-10656,Additional compute required,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10307,VPN connectivity problem,The site-to-site VPN tunnel between our office and AWS is down. We noticed this today.,VPN_Issue
+TKT-10232,Increase cloud resources,Please provision additional cloud capacity for the production environment. This is impacting users.,Resource_Request
+TKT-10423,Azure VM not responding,Please investigate the connectivity issue with Azure VM AZ-APP-01. Thanks.,Azure_VM_Issue
+TKT-10050,EC2 login failure,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10788,SSL certificate expiry,The SSL certificate for portal.company.com expires in 7 days.,Certificate_Issue
+TKT-10358,S3 permission issue,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10087,Azure VM not responding,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10546,Server connectivity issue,EC2 instance i-367240 is running but SSH connection is failing. Please let us know the next steps.,EC2_Access
+TKT-10193,High CPU on EC2,The CPU alarm for instance i-130610 keeps triggering. CPU is around 95 percent.,EC2_Performance
+TKT-10796,SSL certificate expiry,Please renew the certificate for api.company.com before it expires. This is impacting users.,Certificate_Issue
+TKT-10034,SSH connection issue,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10032,Increase cloud resources,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10200,Additional compute required,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10366,S3 upload failure,Please check permissions for the user accessing bucket application-logs-prod.,S3_Access
+TKT-10487,VM connectivity problem,Production Azure virtual machine appears to be unreachable.,Azure_VM_Issue
+TKT-10595,Site-to-site VPN issue,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10569,CPU alarm,The CPU alarm for instance i-202747 keeps triggering. CPU is around 99 percent.,EC2_Performance
+TKT-10429,AWS alarm notification,We received an AWS notification regarding an unhealthy host count alarm.,CloudWatch_Alert
+TKT-10138,SSH connection issue,Unable to connect to EC2 instance i-505116 using SSH.,EC2_Access
+TKT-10073,CPU alarm,The CPU alarm for instance i-367729 keeps triggering. CPU is around 95 percent.,EC2_Performance
+TKT-10078,Unable to access S3,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10513,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10784,Increase cloud resources,Please increase the EC2 instance capacity for the production workload. We noticed this today.,Resource_Request
+TKT-10787,IPsec tunnel failure,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10276,SSL certificate expiry,Please renew the certificate for api.company.com before it expires.,Certificate_Issue
+TKT-10362,Unable to access EC2,We are getting a connection refused error while trying to access the instance.,EC2_Access
+TKT-10097,High CPU on EC2,EC2 instance i-516359 in production is showing CPU utilization above 95%.,EC2_Performance
+TKT-10642,Unable to access EC2,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10716,SSL certificate expiry,Certificate expiry notification received for app.example.com.,Certificate_Issue
+TKT-10282,Unable to access EC2,We are getting a connection refused error while trying to access the instance.,EC2_Access
+TKT-10394,SSH connection issue,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10629,Monitoring alert,An AWS monitoring alert was generated for CPUUtilization. Please investigate. Please check and advise.,CloudWatch_Alert
+TKT-10609,EC2 performance issue,EC2 performance has degraded and the instance is reporting unusually high CPU utilization. This is impacting users.,EC2_Performance
+TKT-10706,SSH connection issue,Unable to connect to EC2 instance i-839730 using SSH.,EC2_Access
+TKT-10755,VPN tunnel down,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10055,Azure VM unreachable,The Azure VM PROD-VM-03 is not responding to connection attempts.,Azure_VM_Issue
+TKT-10751,Azure server issue,We cannot connect to the Azure VM after the restart.,Azure_VM_Issue
+TKT-10156,HTTPS certificate issue,The SSL certificate for portal.company.com expires in 7 days.,Certificate_Issue
+TKT-10433,CPU alarm,The CPU alarm for instance i-470057 keeps triggering. CPU is around 92 percent.,EC2_Performance
+TKT-10098,EC2 login failure,EC2 instance i-280222 is running but SSH connection is failing.,EC2_Access
+TKT-10121,CPU alarm,PRODUCTION EC2 INSTANCE HAS BEEN RUNNING AT VERY HIGH CPU FOR THE LAST 8 HOURS.,EC2_Performance
+TKT-10077,CloudWatch alarm triggered,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10205,Monitoring alert,An AWS monitoring alert was generated for StatusCheckFailed. Please investigate. Please let us know teh next steps.,CloudWatch_Alert
+TKT-10353,CPU alarm,Production EC2 instance has been running at very high CPU for the last 1 hours.,EC2_Performance
+TKT-10765,CloudWatch alarm triggered,An AWS monitoring alert was generated for CPUUtilization. Please investigate. Please check and advise.,CloudWatch_Alert
+TKT-10209,EC2 performance issue,We are seeing high CPU usage on the EC2 server i-501312. Please investigate.,EC2_Performance
+TKT-10368,EC2 capacity request,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10426,EC2 login failure,THE TEAM IS UNABLE TO LOG IN TO THE EC2 INSTANCE AFTER THE LATEST CHANGE.,EC2_Access
+TKT-10516,SSL certificate expiry,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10085,CloudWatch alarm triggered,The CloudWatch alarm has changed to ALARM state repeatedly.,CloudWatch_Alert
+TKT-10011,IPsec tunnel failure,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10721,High CPU on EC2,Production EC2 instance has been running at very high CPU for the last 4 hours. We noticed this today.,EC2_Performance
+TKT-10111,Azure VM unreachable,Please investigate the connectivity issue with Azure VM AZ-APP-01. This is impacting users.,Azure_VM_Issue
+TKT-10522,SSH connection issue,EC2 instance i-769986 is running but SSH connection is failing.,EC2_Access
+TKT-10778,Server connectivity issue,Unable to connect to EC2 instance i-330246 using SSH. Thanks.,EC2_Access
+TKT-10210,EC2 login failure,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10236,Certificate renewal required,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10317,CloudWatch alarm triggered,CloudWatch is showing an alarm state for the application monitoring metric.,CloudWatch_Alert
+TKT-10389,Unhealthy host alarm,An AWS monitoring alert was generated for StatusCheckFailed. Please investigate.,CloudWatch_Alert
+TKT-10119,Azure VM not responding,We cannot connect to the Azure VM after the restart.,Azure_VM_Issue
+TKT-10720,Increase cloud resources,Please provision additional cloud capacity for teh production environment.,Resource_Request
+TKT-10211,IPsec tunnel failure,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10255,Azure VM not responding,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10592,Additional compute required,Please scale the environment by adding another EC2 instance. Please let us know the next steps.,Resource_Request
+TKT-10030,S3 upload failure,The S3 bucket is reachable but the application does not have permission to access objects. Please let us know the next steps.,S3_Access
+TKT-10267,IPsec tunnel failure,The AWS VPN connection is unstable and the tunnel keeps disconnecting. We noticed this today.,VPN_Issue
+TKT-10657,CPU alarm,We are seeing high CPU usage on teh EC2 server i-567965. Please investigate. We noticed this today.,EC2_Performance
+TKT-10663,Azure VM unreachable,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10297,EC2 performance issue,The CPU alarm for instance i-142608 keeps triggering. CPU is around 92 percent.,EC2_Performance
+TKT-10082,Unable to access EC2,EC2 instance i-204180 is running but SSH connection is failing.,EC2_Access
+TKT-10689,CPU alarm,EC2 instance i-206260 in prod is showing CPU utilization above 95%. We noticed this today.,EC2_Performance
+TKT-10303,Azure VM unreachable,The Azure server has stopped responding and users cannot access the application. Please check and advise.,Azure_VM_Issue
+TKT-10507,VPN connectivity problem,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10759,VM connectivity problem,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10315,IPsec tunnel failure,Please check teh site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10645,Unhealthy host alarm,An AWS monitoring alert was generated for CPUUtilization. Please investigate.,CloudWatch_Alert
+TKT-10410,SSH connection issue,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10212,HTTPS certificate issue,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10533,AWS alarm notification,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10484,SSL certificate expiry,PLEASE RENEW THE CERTIFICATE FOR API.COMPANY.COM BEFORE IT EXPIRES.,Certificate_Issue
+TKT-10219,VPN connectivity problem,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10008,Request for additional capacity,We need additional compute capacity for the upcoming workload. This is impacting users.,Resource_Request
+TKT-10465,EC2 performance issue,The CPU alarm for instance i-656921 keeps triggering. CPU is around 95 percent.,EC2_Performance
+TKT-10102,S3 upload failure,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10327,VM connectivity problem,Please investigate the connectivity issue with Azure VM WEB-VM-02.,Azure_VM_Issue
+TKT-10653,Monitoring alert,The CloudWatch alarm has changed to ALARM state repeatedly. Please check and advise.,CloudWatch_Alert
+TKT-10538,Server connectivity issue,EC2 instance i-127223 is running but SSH connection is failing. Please check and advise.,EC2_Access
+TKT-10641,CPU alarm,The CPU alarm for instance i-543230 keeps triggering. CPU is around 90 percent.,EC2_Performance
+TKT-10003,VPN connectivity problem,Both VPN tunnels are showing down from the AWS side.,VPN_Issue
+TKT-10739,VPN tunnel down,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10777,EC2 performance issue,OUR APPLICATION ON EC2 IS SLOW AND CPU USAGE IS CONTINUOUSLY ABOVE NORMAL LEVELS.,EC2_Performance
+TKT-10520,EC2 capacity request,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10590,S3 permission issue,The application cannot read objects from the S3 bucket. This is impacting users.,S3_Access
+TKT-10799,Azure VM not responding,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10745,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels. This is impacting users.,EC2_Performance
+TKT-10514,SSH connection issue,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10671,Azure VM not responding,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10265,CPU alarm,The CPU alarm for instance i-234159 keeps triggering. CPU is around 99 percent.,EC2_Performance
+TKT-10616,EC2 capacity request,We need additional compute capacity for teh upcoming workload.,Resource_Request
+TKT-10330,SSH connection issue,Connection to the EC2 server is timing out. Please check access. We noticed this today.,EC2_Access
+TKT-10343,Azure VM not responding,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10395,VPN connectivity problem,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10080,Additional compute required,Please provision additional cloud capacity for the production environment. Thanks.,Resource_Request
+TKT-10149,Unhealthy host alarm,We received an AWS notification regarding an unhealthy host count alarm.,CloudWatch_Alert
+TKT-10351,VM connectivity problem,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10383,VM connectivity problem,Production Azure virtual machine appears to be unreachable. Kindly investigate ASAP.,Azure_VM_Issue
+TKT-10441,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10310,S3 upload failure,User is receiving AccessDenied while accessing the S3 bucket finance-reports.,S3_Access
+TKT-10708,Certificate renewal required,Please renew the certificate for login.company.com before it expires.,Certificate_Issue
+TKT-10134,S3 permission issue,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10382,S3 permission issue,User is receiving AccessDenied while accessing the S3 bucket finance-reports.,S3_Access
+TKT-10214,S3 permission issue,The S3 bucket is reachable but the application does not have permission to access objects. Please check and advise.,S3_Access
+TKT-10660,HTTPS certificate issue,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10056,Additional compute required,THE CURRENT CAPACITY IS NOT SUFFICIENT FOR TEH EXPECTED TRAFFIC. PLEASE INCREASE RESOURCES. THANKS.,Resource_Request
+TKT-10737,Production server slow,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10621,AWS alarm notification,An AWS monitoring alert was generated for StatusCheckFailed. Please investigate. Thanks.,CloudWatch_Alert
+TKT-10583,Azure server issue,Azure VM is running in the portal but the application is not reachable. Please let us know the next steps.,Azure_VM_Issue
+TKT-10674,SSH connection issue,We cannot access the production EC2 server from the jump server.,EC2_Access
+TKT-10528,Increase cloud resources,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10197,AWS alarm notification,An AWS monitoring alert was generated for disk utilization. Please investigate.,CloudWatch_Alert
+TKT-10714,Unable to access EC2,EC2 instance i-787199 is running but SSH connection is failing. Kindly investigate ASAP.,EC2_Access
+TKT-10690,SSH connection issue,EC2 instance i-482201 is running but SSH connection is failing. We noticed this today.,EC2_Access
+TKT-10061,Unhealthy host alarm,The CloudWatch alarm has changed to ALARM state repeatedly.,CloudWatch_Alert
+TKT-10577,CPU alarm,EC2 performance has degraded and the instance is reporting unusually high CPU utilization.,EC2_Performance
+TKT-10632,EC2 capacity request,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10432,EC2 capacity request,Requesting an increase in AWS compute resources for the application.,Resource_Request
+TKT-10604,Certificate renewal required,The SSL certificate for portal.company.com expires in 7 days.,Certificate_Issue
+TKT-10443,VPN tunnel down,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10437,Monitoring alert,CloudWatch has triggered an alarm for StatusCheckFailed on instance i-773459.,CloudWatch_Alert
+TKT-10248,Increase cloud resources,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10587,IPsec tunnel failure,VPN tunnel has gone down and traffic between the networks is failing.,VPN_Issue
+TKT-10570,Server connectivity issue,We are getting a connection refused error while trying to access the instance.,EC2_Access
+TKT-10091,VPN tunnel down,Our customer reports that the IPsec VPN connection is not established. Kindly investigate ASAP.,VPN_Issue
+TKT-10651,IPsec tunnel failure,VPN tunnel has gone down and traffic between the networks is failing. Please check and advise.,VPN_Issue
+TKT-10182,S3 AccessDenied,Please check permissions for the user accessing bucket application-logs-prod. Kindly investigate ASAP.,S3_Access
+TKT-10791,Azure VM not responding,Please investigate the connectivity issue with Azure VM WEB-VM-02.,Azure_VM_Issue
+TKT-10555,VPN connectivity problem,Please check the site-to-site VPN. The tunnel status changed to DOWN. This is impacting users.,VPN_Issue
+TKT-10291,Site-to-site VPN issue,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10159,Azure server issue,We cannot connect to the Azure VM after the restart. Thanks.,Azure_VM_Issue
+TKT-10070,S3 AccessDenied,The S3 bucket is reachable but the application does not have permission to access objects.,S3_Access
+TKT-10518,Unable to access S3,S3 access is failing for the service account after the recent policy change. We noticed this today.,S3_Access
+TKT-10132,HTTPS certificate issue,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10045,Unhealthy host alarm,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10071,Azure VM not responding,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10692,TLS certificate alert,The SSL certificate for login.company.com expires in 10 days. Please check and advise.,Certificate_Issue
+TKT-10356,Certificate renewal required,Please renew the certificate for portal.company.com before it expires. Please let us know the next steps.,Certificate_Issue
+TKT-10445,AWS alarm notification,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10762,Unable to access EC2,The team is unable to log in to the EC2 instance after the latest change. Kindly investigate ASAP.,EC2_Access
+TKT-10136,EC2 capacity request,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10083,Site-to-site VPN issue,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10166,S3 permission issue,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10165,Monitoring alert,The CloudWatch alarm has changed to ALARM state repeatedly.,CloudWatch_Alert
+TKT-10029,AWS alarm notification,CloudWatch is showing an alarm state for the application monitoring metric.,CloudWatch_Alert
+TKT-10449,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels. This is impacting users.,EC2_Performance
+TKT-10194,EC2 login failure,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10240,Increase cloud resources,Please provision additional cloud capacity for the production environment.,Resource_Request
+TKT-10725,CloudWatch alarm triggered,We received an AWS notification regarding an unhealthy host count alarm.,CloudWatch_Alert
+TKT-10731,VPN connectivity problem,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10137,CPU alarm,EC2 performance has degraded and the instance is reporting unusually high CPU utilization.,EC2_Performance
+TKT-10665,CPU alarm,The CPU alarm for instance i-175312 keeps triggering. CPU is around 92 percent.,EC2_Performance
+TKT-10312,Request for additional capacity,Requesting an increase in AWS compute resources for the application.,Resource_Request
+TKT-10141,AWS alarm notification,An AWS monitoring alert was generated for CPUUtilization. Please investigate.,CloudWatch_Alert
+TKT-10474,SSH connection issue,We cannot access the production EC2 server from the jump server.,EC2_Access
+TKT-10007,Azure VM not responding,The Azure VM WEB-VM-02 is not responding to connection attempts.,Azure_VM_Issue
+TKT-10729,EC2 performance issue,The CPU alarm for instance i-624514 keeps triggering. CPU is around 92 percent.,EC2_Performance
+TKT-10756,SSL certificate expiry,Please renew the certificate for portal.company.com before it expires.,Certificate_Issue
+TKT-10074,Unable to access EC2,WE CANNOT ACCESS THE PRODUCTION EC2 SERVER FROM THE JUMP SERVER. WE NOTICED THIS TODAY.,EC2_Access
+TKT-10560,Request for additional capacity,We need additional compute capacity for the upcoming workload. Please let us know the next steps.,Resource_Request
+TKT-10300,SSL certificate expiry,Certificate expiry notification received for app.example.com.,Certificate_Issue
+TKT-10146,EC2 login failure,EC2 instance i-144109 is running but SSH connection is failing. Thanks.,EC2_Access
+TKT-10293,Unhealthy host alarm,CloudWatch has triggered an alarm for CPUUtilization on instance i-499371.,CloudWatch_Alert
+TKT-10235,VPN tunnel down,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10221,Monitoring alert,An AWS monitoring alert was generated for UnhealthyHostCount. Please investigate.,CloudWatch_Alert
+TKT-10451,VPN tunnel down,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10381,CloudWatch alarm triggered,CloudWatch is showing an alarm state for the application monitoring metric.,CloudWatch_Alert
+TKT-10133,CloudWatch alarm triggered,An AWS monitoring alert was generated for StatusCheckFailed. Please investigate.,CloudWatch_Alert
+TKT-10376,Request for additional capacity,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10405,Monitoring alert,CloudWatch has triggered an alarm for UnhealthyHostCount on instance i-699121.,CloudWatch_Alert
+TKT-10523,VPN connectivity problem,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10750,S3 upload failure,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10427,VPN connectivity problem,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10042,EC2 login failure,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10496,Additional compute required,Please provision additional cloud capacity for the production environment.,Resource_Request
+TKT-10109,AWS alarm notification,We received an AWS notification regarding an unhealthy host count alarm. This is impacting users.,CloudWatch_Alert
+TKT-10345,High CPU on EC2,Production EC2 instance has been running at very high CPU for the last 3 hours.,EC2_Performance
+TKT-10057,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels. This is impacting users.,EC2_Performance
+TKT-10260,TLS certificate alert,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10480,Request for additional capacity,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10626,Server connectivity issue,We are getting a connection refused error while trying to access the instance.,EC2_Access
+TKT-10228,SSL certificate expiry,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10213,Unhealthy host alarm,CloudWatch is showing an alarm state for the application monitoring metric. Please check and advise.,CloudWatch_Alert
+TKT-10594,SSH connection issue,The team is unable to log in to the EC2 instance after the latest change. Kindly investigate ASAP.,EC2_Access
+TKT-10333,Unhealthy host alarm,An AWS monitoring alert was generated for disk utilization. Please investigate.,CloudWatch_Alert
+TKT-10025,EC2 performance issue,Production EC2 instance has been running at very high CPU for the last 2 hours.,EC2_Performance
+TKT-10781,CloudWatch alarm triggered,WE RECEIVED A CLOUDWATCH ALARM FOR UNHEALTHY HOSTS IN THE PRODUCTION ENVIRONMENT.,CloudWatch_Alert
+TKT-10352,Increase cloud resources,Requesting an increase in AWS compute resources for teh application.,Resource_Request
+TKT-10357,CloudWatch alarm triggered,CloudWatch has triggered an alarm for UnhealthyHostCount on instance i-617555.,CloudWatch_Alert
+TKT-10052,Certificate renewal required,Please renew the certificate for api.company.com before it expires.,Certificate_Issue
+TKT-10332,Certificate renewal required,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10734,S3 permission issue,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10630,S3 AccessDenied,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10502,S3 AccessDenied,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10335,Azure server issue,The Azure VM PROD-VM-03 is not responding to connection attempts.,Azure_VM_Issue
+TKT-10286,Unable to access S3,The application cannot read objects from the S3 bucket. We noticed this today.,S3_Access
+TKT-10019,IPsec tunnel failure,VPN tunnel has gone down and traffic between the networks is failing.,VPN_Issue
+TKT-10585,CPU alarm,The CPU alarm for instance i-832356 keeps triggering. CPU is around 90 percent.,EC2_Performance
+TKT-10749,Monitoring alert,We received an AWS notification regarding an unhealthy host count alarm.,CloudWatch_Alert
+TKT-10084,Certificate renewal required,We received an alert that the TLS certificate is approaching expiry. Please check and advise.,Certificate_Issue
+TKT-10062,S3 upload failure,THE S3 BUCKET IS REACHABLE BUT THE APPLICATION DOES NOT HAVE PERMISSION TO ACCESS OBJECTS.,S3_Access
+TKT-10463,Azure VM not responding,Please investigate the connectivity issue with Azure VM WEB-VM-02.,Azure_VM_Issue
+TKT-10292,SSL certificate expiry,CERTIFICATE EXPIRY NOTIFICATION RECEIVED FOR APP.EXAMPLE.COM.,Certificate_Issue
+TKT-10448,EC2 capacity request,Requesting an increase in AWS compute resources for the application. Please check and advise.,Resource_Request
+TKT-10183,Azure VM not responding,Production Azure virtual machine appears to be unreachable.,Azure_VM_Issue
+TKT-10550,S3 AccessDenied,User is receiving AccessDenied while accessing the S3 bucket application-logs-prod.,S3_Access
+TKT-10501,AWS alarm notification,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10224,Request for additional capacity,Please increase the EC2 instance capacity for the production workload.,Resource_Request
+TKT-10425,CPU alarm,We are seeing high CPU usage on the EC2 server i-792984. Please investigate. Kindly investigate ASAP.,EC2_Performance
+TKT-10468,SSL certificate expiry,Certificate expiry notification received for api.company.com.,Certificate_Issue
+TKT-10320,Request for additional capacity,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10329,Production server slow,We are seeing high CPU usage on the EC2 server i-508004. Please investigate. Please check and advise.,EC2_Performance
+TKT-10444,HTTPS certificate issue,We received an alert that the TLS certificate is approaching expiry.,Certificate_Issue
+TKT-10494,Unable to access S3,User is receiving AccessDenied while accessing the S3 bucket finance-reports. We noticed this today.,S3_Access
+TKT-10177,Production server slow,EC2 performance has degraded and the instance is reporting unusually high CPU utilization.,EC2_Performance
+TKT-10677,AWS alarm notification,The CloudWatch alarm has changed to ALARM state repeatedly.,CloudWatch_Alert
+TKT-10364,HTTPS certificate issue,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10164,Certificate renewal required,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10249,EC2 performance issue,EC2 PERFORMANCE HAS DEGRADED AND THE INSTANCE IS REPORTING UNUSUALLY HIGH CPU UTILIZATION.,EC2_Performance
+TKT-10519,Azure server issue,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10711,VM connectivity problem,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10075,Site-to-site VPN issue,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10644,HTTPS certificate issue,THE SSL CERTIFICATE FOR APP.EXAMPLE.COM EXPIRES IN 7 DAYS.,Certificate_Issue
+TKT-10406,S3 AccessDenied,WE ARE UNABLE TO UPLOAD FILES TO TEH S3 BUCKET DUE TO AN ACCESS DENIED ERROR.,S3_Access
+TKT-10105,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10115,VPN tunnel down,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10301,CloudWatch alarm triggered,An AWS monitoring alert was generated for UnhealthyHostCount. Please investigate.,CloudWatch_Alert
+TKT-10093,CloudWatch alarm triggered,We received an AWS notification regarding an unhealthy host count alarm. Kindly investigate ASAP.,CloudWatch_Alert
+TKT-10412,SSL certificate expiry,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10090,EC2 login failure,We cannot access the production EC2 server from the jump server.,EC2_Access
+TKT-10529,EC2 performance issue,We are seeing high CPU usage on the EC2 server i-952924. Please investigate.,EC2_Performance
+TKT-10735,Azure VM unreachable,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10744,Request for additional capacity,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10576,Increase cloud resources,Requesting an increase in AWS compute resources for the application.,Resource_Request
+TKT-10498,SSH connection issue,Unable to connect to EC2 instance i-444053 using SSH. Please let us know the next steps.,EC2_Access
+TKT-10495,Azure VM unreachable,We cannot connect to the Azure VM after the restart.,Azure_VM_Issue
+TKT-10012,HTTPS certificate issue,We received an alert that the TLS certificate is approaching expiry.,Certificate_Issue
+TKT-10434,EC2 login failure,We are getting a connection refused error while trying to access the instance.,EC2_Access
+TKT-10044,SSL certificate expiry,Please renew the certificate for portal.company.com before it expires.,Certificate_Issue
+TKT-10043,VPN tunnel down,VPN tunnel has gone down and traffic between the networks is failing. Please check and advise.,VPN_Issue
+TKT-10168,Additional compute required,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10704,Increase cloud resources,THE CURRENT CAPACITY IS NOT SUFFICIENT FOR THE EXPECTED TRAFFIC. PLEASE INCREASE RESOURCES. THANKS.,Resource_Request
+TKT-10614,S3 upload failure,User is receiving AccessDenied while accessing the S3 bucket customer-data-prod.,S3_Access
+TKT-10413,Monitoring alert,An AWS monitoring alert was generated for disk utilization. Please investigate.,CloudWatch_Alert
+TKT-10179,IPsec tunnel failure,Our customer reports that the IPsec VPN connection is not established. Thanks.,VPN_Issue
+TKT-10531,Site-to-site VPN issue,VPN tunnel has gone down and traffic between teh networks is failing. Thanks.,VPN_Issue
+TKT-10540,Certificate renewal required,Please renew the certificate for app.example.com before it expires. Please let us know the next steps.,Certificate_Issue
+TKT-10178,Server connectivity issue,We are getting a connection refused error while trying to access the instance. This is impacting users.,EC2_Access
+TKT-10666,EC2 login failure,The team is unable to log in to the EC2 instance after the latest change. We noticed this today.,EC2_Access
+TKT-10767,Azure VM unreachable,We cannot connect to the Azure VM after the restart.,Azure_VM_Issue
+TKT-10258,EC2 login failure,We are getting a connection refused error while trying to access the instance. Kindly investigate ASAP.,EC2_Access
+TKT-10766,Unable to access S3,Please check permissions for the user accessing bucket customer-data-prod.,S3_Access
+TKT-10544,Increase cloud resources,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10016,Increase cloud resources,Please provision additional cloud capacity for the production environment.,Resource_Request
+TKT-10004,Certificate renewal required,The SSL certificate for portal.company.com expires in 20 days.,Certificate_Issue
+TKT-10336,Increase cloud resources,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10257,High CPU on EC2,We are seeing high CPU usage on the EC2 server i-973390. Please investigate.,EC2_Performance
+TKT-10581,CloudWatch alarm triggered,CloudWatch is showing an alarm state for the application monitoring metric.,CloudWatch_Alert
+TKT-10446,S3 upload failure,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10339,Site-to-site VPN issue,VPN tunnel has gone down and traffic between teh networks is failing.,VPN_Issue
+TKT-10479,Azure server issue,THE AZURE SERVER HAS STOPPED RESPONDING AND USERS CANNOT ACCESS THE APPLICATION.,Azure_VM_Issue
+TKT-10418,Server connectivity issue,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10639,Azure server issue,Production Azure virtual machine appears to be unreachable.,Azure_VM_Issue
+TKT-10715,IPsec tunnel failure,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10325,CloudWatch alarm triggered,AN AWS MONITORING ALERT WAS GENERATED FOR CPUUTILIZATION. PLEASE INVESTIGATE. WE NOTICED THIS TODAY.,CloudWatch_Alert
+TKT-10458,EC2 login failure,THE TEAM IS UNABLE TO LOG IN TO THE EC2 INSTANCE AFTER THE LATEST CHANGE. WE NOTICED THIS TODAY.,EC2_Access
+TKT-10010,SSH connection issue,We are getting a connection refused error while trying to access the instance. We noticed this today.,EC2_Access
+TKT-10250,SSH connection issue,Unable to connect to EC2 instance i-893969 using SSH. We noticed this today.,EC2_Access
+TKT-10023,Azure VM unreachable,We cannot connect to the Azure VM after the restart.,Azure_VM_Issue
+TKT-10222,S3 AccessDenied,Please check permissions for the user accessing bucket backup-prod. Kindly investigate ASAP.,S3_Access
+TKT-10548,Certificate renewal required,Please renew the certificate for app.example.com before it expires.,Certificate_Issue
+TKT-10691,IPsec tunnel failure,The site-to-site VPN tunnel between our office and AWS is down. This is impacting users.,VPN_Issue
+TKT-10785,Production server slow,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10627,VPN tunnel down,VPN TUNNEL HAS GONE DOWN AND TRAFFIC BETWEEN THE NETWORKS IS FAILING.,VPN_Issue
+TKT-10341,Unhealthy host alarm,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10672,Increase cloud resources,Please increase the EC2 instance capacity for the production workload.,Resource_Request
+TKT-10204,Certificate renewal required,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10238,S3 upload failure,We are unable to upload files to the S3 bucket due to an access denied error. This is impacting users.,S3_Access
+TKT-10094,S3 AccessDenied,User is receiving AccessDenied while accessing the S3 bucket backup-prod.,S3_Access
+TKT-10532,TLS certificate alert,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10363,VPN connectivity problem,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10545,CPU alarm,EC2 performance has degraded and the instance is reporting unusually high CPU utilization.,EC2_Performance
+TKT-10285,CloudWatch alarm triggered,CloudWatch has triggered an alarm for CPUUtilization on instance i-523037.,CloudWatch_Alert
+TKT-10185,CPU alarm,Production EC2 instance has been running at very high CPU for the last 3 hours.,EC2_Performance
+TKT-10650,Server connectivity issue,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10397,Monitoring alert,An AWS monitoring alert was generated for StatusCheckFailed. Please investigate. Kindly investigate ASAP.,CloudWatch_Alert
+TKT-10154,SSH connection issue,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10076,Certificate renewal required,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10454,S3 AccessDenied,User is receiving AccessDenied while accessing the S3 bucket backup-prod.,S3_Access
+TKT-10696,Request for additional capacity,Requesting an increase in AWS compute resources for the application. Please let us know the next steps.,Resource_Request
+TKT-10278,Unable to access S3,The S3 bucket is reachable but the application does not have permission to access objects.,S3_Access
+TKT-10069,Unhealthy host alarm,CloudWatch has triggered an alarm for StatusCheckFailed on instance i-857537.,CloudWatch_Alert
+TKT-10515,Site-to-site VPN issue,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10189,Monitoring alert,CloudWatch is showing an alarm state for the application monitoring metric.,CloudWatch_Alert
+TKT-10272,EC2 capacity request,REQUESTING AN INCREASE IN AWS COMPUTE RESOURCES FOR THE APPLICATION. WE NOTICED THIS TODAY.,Resource_Request
+TKT-10237,CloudWatch alarm triggered,CloudWatch has triggered an alarm for StatusCheckFailed on instance i-652021. This is impacting users.,CloudWatch_Alert
+TKT-10089,CPU alarm,The CPU alarm for instance i-536196 keeps triggering. CPU is around 92 percent. Please check and advise.,EC2_Performance
+TKT-10763,Site-to-site VPN issue,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10118,S3 upload failure,User is receiving AccessDenied while accessing the S3 bucket customer-data-prod.,S3_Access
+TKT-10126,S3 upload failure,The S3 bucket is reachable but the application does not have permission to access objects.,S3_Access
+TKT-10661,Monitoring alert,An AWS monitoring alert was generated for StatusCheckFailed. Please investigate.,CloudWatch_Alert
+TKT-10290,EC2 login failure,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10239,Azure VM unreachable,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10001,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10792,Additional compute required,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10603,IPsec tunnel failure,Both VPN tunnels are showing down from the AWS side. Please let us know the next steps.,VPN_Issue
+TKT-10795,Site-to-site VPN issue,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10466,Unable to access EC2,We cannot access the production EC2 server from the jump server.,EC2_Access
+TKT-10279,Azure VM not responding,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10625,High CPU on EC2,The CPU alarm for instance i-531256 keeps triggering. CPU is around 92 percent.,EC2_Performance
+TKT-10117,Monitoring alert,The CloudWatch alarm has changed to ALARM state repeatedly.,CloudWatch_Alert
+TKT-10229,Monitoring alert,CloudWatch has triggered an alarm for disk utilization on instance i-970708.,CloudWatch_Alert
+TKT-10757,Monitoring alert,CloudWatch has triggered an alarm for CPUUtilization on instance i-459462. Please check and advise.,CloudWatch_Alert
+TKT-10421,AWS alarm notification,CloudWatch is showing an alarm state for teh application monitoring metric.,CloudWatch_Alert
+TKT-10435,VPN tunnel down,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10275,VPN connectivity problem,OUR CUSTOMER REPORTS THAT THE IPSEC VPN CONNECTION IS NOT ESTABLISHED.,VPN_Issue
+TKT-10319,Azure server issue,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10552,EC2 capacity request,Please provision additional cloud capacity for the production environment.,Resource_Request
+TKT-10145,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10649,Production server slow,We are seeing high CPU usage on the EC2 server i-610102. Please investigate.,EC2_Performance
+TKT-10736,Additional compute required,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10727,Azure server issue,We cannot connect to the Azure VM after the restart. Please check and advise.,Azure_VM_Issue
+TKT-10586,SSH connection issue,WE CANNOT ACCESS TEH PRODUCTION EC2 SERVER FROM THE JUMP SERVER.,EC2_Access
+TKT-10370,SSH connection issue,We are getting a connection refused error while trying to access the instance. This is impacting users.,EC2_Access
+TKT-10269,Unhealthy host alarm,We received a CloudWatch alarm for unhealthy hosts in the production environment. This is impacting users.,CloudWatch_Alert
+TKT-10568,EC2 capacity request,Please provision additional cloud capacity for the production environment. Thanks.,Resource_Request
+TKT-10308,HTTPS certificate issue,THE APPLICATION CERTIFICATE WILL EXPIRE SOON AND NEEDS TO BE REPLACED.,Certificate_Issue
+TKT-10311,VM connectivity problem,Production Azure virtual machine appears to be unreachable.,Azure_VM_Issue
+TKT-10452,SSL certificate expiry,Please renew teh certificate for login.company.com before it expires.,Certificate_Issue
+TKT-10047,VM connectivity problem,The Azure VM AZ-APP-01 is not responding to connection attempts.,Azure_VM_Issue
+TKT-10350,S3 upload failure,S3 access is failing for the service account after the recent policy change. Kindly investigate ASAP.,S3_Access
+TKT-10372,TLS certificate alert,Certificate expiry notification received for login.company.com.,Certificate_Issue
+TKT-10524,Certificate renewal required,WE RECEIVED AN ALERT THAT TEH TLS CERTIFICATE IS APPROACHING EXPIRY.,Certificate_Issue
+TKT-10262,Unable to access S3,The S3 bucket is reachable but the application does not have permission to access objects.,S3_Access
+TKT-10196,TLS certificate alert,Certificate expiry notification received for app.example.com.,Certificate_Issue
+TKT-10800,Request for additional capacity,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10673,High CPU on EC2,EC2 performance has degraded and the instance is reporting unusually high CPU utilization.,EC2_Performance
+TKT-10108,Certificate renewal required,Please renew the certificate for api.company.com before it expires.,Certificate_Issue
+TKT-10060,Certificate renewal required,The SSL certificate for login.company.com expires in 15 days.,Certificate_Issue
+TKT-10600,Increase cloud resources,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10440,Request for additional capacity,Please provision additional cloud capacity for teh production environment.,Resource_Request
+TKT-10101,Unhealthy host alarm,We received an AWS notification regarding an unhealthy host count alarm.,CloudWatch_Alert
+TKT-10478,Unable to access S3,Please check permissions for the user accessing bucket finance-reports.,S3_Access
+TKT-10719,Azure server issue,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10584,Request for additional capacity,Please increase the EC2 instance capacity for the production workload. We noticed this today.,Resource_Request
+TKT-10738,Server connectivity issue,WE CANNOT ACCESS THE PRODUCTION EC2 SERVER FROM THE JUMP SERVER. THIS IS IMPACTING USERS.,EC2_Access
+TKT-10180,TLS certificate alert,PLEASE RENEW THE CERTIFICATE FOR APP.EXAMPLE.COM BEFORE IT EXPIRES.,Certificate_Issue
+TKT-10305,Production server slow,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10430,S3 AccessDenied,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10508,TLS certificate alert,We received an alert that teh TLS certificate is approaching expiry.,Certificate_Issue
+TKT-10771,IPsec tunnel failure,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10150,Unable to access S3,User is receiving AccessDenied while accessing the S3 bucket backup-prod.,S3_Access
+TKT-10125,Unhealthy host alarm,We received an AWS notification regarding an unhealthy host count alarm.,CloudWatch_Alert
+TKT-10635,VPN tunnel down,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10698,SSH connection issue,EC2 instance i-594988 is running but SSH connection is failing.,EC2_Access
+TKT-10186,Server connectivity issue,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10542,S3 upload failure,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10051,Site-to-site VPN issue,VPN tunnel has gone down and traffic between the networks is failing. This is impacting users.,VPN_Issue
+TKT-10488,EC2 capacity request,Please increase the EC2 instance capacity for the production workload.,Resource_Request
+TKT-10790,S3 permission issue,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10486,Unable to access S3,PLEASE CHECK PERMISSIONS FOR THE USER ACCESSING BUCKET BACKUP-PROD.,S3_Access
+TKT-10322,Server connectivity issue,CONNECTION TO THE EC2 SERVER IS TIMING OUT. PLEASE CHECK ACCESS.,EC2_Access
+TKT-10354,EC2 login failure,We cannot access the production EC2 server from the jump server. We noticed this today.,EC2_Access
+TKT-10740,TLS certificate alert,We received an alert that the TLS certificate is approaching expiry. Please check and advise.,Certificate_Issue
+TKT-10143,VM connectivity problem,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10371,Site-to-site VPN issue,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10142,S3 upload failure,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10400,Increase cloud resources,Please increase teh EC2 instance capacity for the production workload.,Resource_Request
+TKT-10264,Request for additional capacity,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10321,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10020,SSL certificate expiry,The SSL certificate for api.company.com expires in 15 days. Please check and advise.,Certificate_Issue
+TKT-10173,Monitoring alert,We received an AWS notification regarding an unhealthy host count alarm. We noticed this today.,CloudWatch_Alert
+TKT-10654,Unable to access S3,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10313,CPU alarm,EC2 performance has degraded and the instance is reporting unusually high CPU utilization.,EC2_Performance
+TKT-10391,VM connectivity problem,Please investigate the connectivity issue with Azure VM WEB-VM-02.,Azure_VM_Issue
+TKT-10746,Server connectivity issue,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10013,AWS alarm notification,The CloudWatch alarm has changed to ALARM state repeatedly.,CloudWatch_Alert
+TKT-10408,Additional compute required,Please scale the environment by adding another EC2 instance. Kindly investigate ASAP.,Resource_Request
+TKT-10409,CPU alarm,EC2 instance i-777015 in UAT is showing CPU utilization above 95%.,EC2_Performance
+TKT-10306,EC2 login failure,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10355,VPN connectivity problem,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10026,Unable to access EC2,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10598,S3 permission issue,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10170,Server connectivity issue,EC2 instance i-259814 is running but SSH connection is failing.,EC2_Access
+TKT-10039,Azure VM not responding,Production Azure virtual machine appears to be unreachable.,Azure_VM_Issue
+TKT-10176,EC2 capacity request,Please increase the EC2 instance capacity for the production workload.,Resource_Request
+TKT-10246,S3 AccessDenied,User is receiving AccessDenied while accessing the S3 bucket customer-data-prod. Kindly investigate ASAP.,S3_Access
+TKT-10299,VPN connectivity problem,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10669,CloudWatch alarm triggered,WE RECEIVED AN AWS NOTIFICATION REGARDING AN UNHEALTHY HOST COUNT ALARM.,CloudWatch_Alert
+TKT-10417,High CPU on EC2,We are seeing high CPU usage on teh EC2 server i-174703. Please investigate.,EC2_Performance
+TKT-10549,Monitoring alert,CloudWatch has triggered an alarm for CPUUtilization on instance i-955604.,CloudWatch_Alert
+TKT-10273,EC2 performance issue,EC2 performance has degraded and the instance is reporting unusually high CPU utilization.,EC2_Performance
+TKT-10612,SSL certificate expiry,The SSL certificate for login.company.com expires in 2 days.,Certificate_Issue
+TKT-10155,VPN tunnel down,VPN tunnel has gone down and traffic between the networks is failing.,VPN_Issue
+TKT-10127,Azure VM not responding,The Azure VM AZ-APP-01 is not responding to connection attempts.,Azure_VM_Issue
+TKT-10450,Server connectivity issue,The team is unable to log in to the EC2 instance after the latest change. Please check and advise.,EC2_Access
+TKT-10572,HTTPS certificate issue,The SSL certificate for login.company.com expires in 2 days.,Certificate_Issue
+TKT-10342,S3 permission issue,Please check permissions for the user accessing bucket finance-reports.,S3_Access
+TKT-10431,Azure server issue,Please investigate the connectivity issue with Azure VM AZ-APP-01.,Azure_VM_Issue
+TKT-10288,Additional compute required,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10114,SSH connection issue,UNABLE TO CONNECT TO EC2 INSTANCE I-913875 USING SSH. PLEASE LET US KNOW THE NEXT STEPS.,EC2_Access
+TKT-10500,SSL certificate expiry,Please renew the certificate for portal.company.com before it expires.,Certificate_Issue
+TKT-10174,S3 permission issue,User is receiving AccessDenied while accessing the S3 bucket backup-prod.,S3_Access
+TKT-10360,Request for additional capacity,We need additional compute capacity for teh upcoming workload.,Resource_Request
+TKT-10483,Site-to-site VPN issue,VPN tunnel has gone down and traffic between the networks is failing.,VPN_Issue
+TKT-10058,EC2 login failure,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10553,EC2 performance issue,EC2 performance has degraded and teh instance is reporting unusually high CPU utilization.,EC2_Performance
+TKT-10223,VM connectivity problem,We cannot connect to teh Azure VM after the restart.,Azure_VM_Issue
+TKT-10281,High CPU on EC2,Production EC2 instance has been running at very high CPU for teh last 8 hours.,EC2_Performance
+TKT-10018,Unable to access EC2,We are getting a connection refused error while trying to access the instance.,EC2_Access
+TKT-10128,Increase cloud resources,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10323,VPN connectivity problem,BOTH VPN TUNNELS ARE SHOWING DOWN FROM THE AWS SIDE.,VPN_Issue
+TKT-10256,Increase cloud resources,Please provision additional cloud capacity for the production environment.,Resource_Request
+TKT-10539,Site-to-site VPN issue,VPN tunnel has gone down and traffic between the networks is failing.,VPN_Issue
+TKT-10471,Azure VM unreachable,We cannot connect to the Azure VM after the restart.,Azure_VM_Issue
+TKT-10599,Azure VM not responding,Production Azure virtual machine appears to be unreachable.,Azure_VM_Issue
+TKT-10469,Unhealthy host alarm,CloudWatch has triggered an alarm for CPUUtilization on instance i-501557.,CloudWatch_Alert
+TKT-10769,Production server slow,We are seeing high CPU usage on teh EC2 server i-859282. Please investigate.,EC2_Performance
+TKT-10191,Azure VM unreachable,We cannot connect to the Azure VM after the restart.,Azure_VM_Issue
+TKT-10116,SSL certificate expiry,Certificate expiry notification received for app.example.com.,Certificate_Issue
+TKT-10517,CloudWatch alarm triggered,WE RECEIVED A CLOUDWATCH ALARM FOR UNHEALTHY HOSTS IN THE PRODUCTION ENVIRONMENT.,CloudWatch_Alert
+TKT-10710,S3 AccessDenied,USER IS RECEIVING ACCESSDENIED WHILE ACCESSING THE S3 BUCKET APPLICATION-LOGS-PROD.,S3_Access
+TKT-10536,Increase cloud resources,Requesting an increase in AWS compute resources for the application. Please check and advise.,Resource_Request
+TKT-10095,Azure server issue,We cannot connect to teh Azure VM after the restart.,Azure_VM_Issue
+TKT-10181,Unhealthy host alarm,An AWS monitoring alert was generated for CPUUtilization. Please investigate. Please check and advise.,CloudWatch_Alert
+TKT-10302,S3 upload failure,The application cannot read objects from the S3 bucket. We noticed this today.,S3_Access
+TKT-10617,CPU alarm,Production EC2 instance has been running at very high CPU for the last 8 hours.,EC2_Performance
+TKT-10582,S3 upload failure,Please check permissions for the user accessing bucket customer-data-prod.,S3_Access
+TKT-10591,Azure VM unreachable,Please investigate the connectivity issue with Azure VM APP-VM-01.,Azure_VM_Issue
+TKT-10732,SSL certificate expiry,Please renew the certificate for api.company.com before it expires.,Certificate_Issue
+TKT-10559,Azure VM unreachable,Please investigate the connectivity issue with Azure VM PROD-VM-03.,Azure_VM_Issue
+TKT-10709,Monitoring alert,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10543,Azure VM not responding,We cannot connect to the Azure VM after the restart.,Azure_VM_Issue
+TKT-10006,Unable to access S3,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10786,EC2 login failure,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10046,S3 upload failure,The S3 bucket is reachable but the application does not have permission to access objects.,S3_Access
+TKT-10726,S3 AccessDenied,The S3 bucket is reachable but the application does not have permission to access objects.,S3_Access
+TKT-10158,S3 upload failure,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10606,S3 upload failure,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10172,HTTPS certificate issue,The SSL certificate for portal.company.com expires in 2 days.,Certificate_Issue
+TKT-10017,High CPU on EC2,We are seeing high CPU usage on the EC2 server i-299448. Please investigate.,EC2_Performance
+TKT-10512,Additional compute required,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10049,Production server slow,Production EC2 instance has been running at very high CPU for the last 1 hours.,EC2_Performance
+TKT-10775,Azure VM unreachable,Production Azure virtual machine appears to be unreachable. We noticed this today.,Azure_VM_Issue
+TKT-10758,Unable to access S3,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10481,High CPU on EC2,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10284,SSL certificate expiry,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10537,High CPU on EC2,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10226,EC2 login failure,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10027,VPN connectivity problem,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10631,Azure server issue,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10438,S3 AccessDenied,Please check permissions for the user accessing bucket finance-reports.,S3_Access
+TKT-10365,Unhealthy host alarm,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10230,S3 upload failure,The S3 bucket is reachable but the application does not have permission to access objects.,S3_Access
+TKT-10038,S3 permission issue,The application cannot read objects from the S3 bucket. Kindly investigate ASAP.,S3_Access
+TKT-10780,SSL certificate expiry,The application certificate will expire soon and needs to be replaced. Please check and advise.,Certificate_Issue
+TKT-10375,Azure VM unreachable,Please investigate the connectivity issue with Azure VM APP-VM-01.,Azure_VM_Issue
+TKT-10470,Unable to access S3,THE APPLICATION CANNOT READ OBJECTS FROM THE S3 BUCKET.,S3_Access
+TKT-10772,Certificate renewal required,WE RECEIVED AN ALERT THAT TEH TLS CERTIFICATE IS APPROACHING EXPIRY.,Certificate_Issue
+TKT-10683,VPN tunnel down,The AWS VPN connection is unstable and teh tunnel keeps disconnecting.,VPN_Issue
+TKT-10695,Azure server issue,Azure VM is running in teh portal but the application is not reachable. Please let us know the next steps.,Azure_VM_Issue
+TKT-10195,Site-to-site VPN issue,Our customer reports that the IPsec VPN connection is not established. Kindly investigate ASAP.,VPN_Issue
+TKT-10685,Monitoring alert,An AWS monitoring alert was generated for disk utilization. Please investigate.,CloudWatch_Alert
+TKT-10694,S3 permission issue,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10504,Additional compute required,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10774,S3 AccessDenied,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10670,S3 upload failure,User is receiving AccessDenied while accessing the S3 bucket backup-prod.,S3_Access
+TKT-10773,CloudWatch alarm triggered,An AWS monitoring alert was generated for CPUUtilization. Please investigate.,CloudWatch_Alert
+TKT-10163,Site-to-site VPN issue,Both VPN tunnels are showing down from the AWS side.,VPN_Issue
+TKT-10752,Additional compute required,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10153,High CPU on EC2,Production EC2 instance has been running at very high CPU for the last 3 hours.,EC2_Performance
+TKT-10558,S3 AccessDenied,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10573,Unhealthy host alarm,CloudWatch has triggered an alarm for disk utilization on instance i-929637. We noticed this today.,CloudWatch_Alert
+TKT-10676,Certificate renewal required,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10112,Increase cloud resources,Requesting an increase in AWS compute resources for the application. Please check and advise.,Resource_Request
+TKT-10227,VPN tunnel down,VPN tunnel has gone down and traffic between the networks is failing. This is impacting users.,VPN_Issue
+TKT-10793,High CPU on EC2,The CPU alarm for instance i-129017 keeps triggering. CPU is around 95 percent.,EC2_Performance
+TKT-10104,EC2 capacity request,Please provision additional cloud capacity for the production environment.,Resource_Request
+TKT-10422,S3 upload failure,Please check permissions for the user accessing bucket backup-prod.,S3_Access
+TKT-10420,Certificate renewal required,We received an alert that the TLS certificate is approaching expiry. Please check and advise.,Certificate_Issue
+TKT-10120,EC2 capacity request,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10054,S3 permission issue,S3 access is failing for the service account after the recent policy change. Thanks.,S3_Access
+TKT-10152,Request for additional capacity,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10404,SSL certificate expiry,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10754,EC2 login failure,EC2 instance i-791281 is running but SSH connection is failing.,EC2_Access
+TKT-10208,EC2 capacity request,Please increase the EC2 instance capacity for the production workload. Please check and advise.,Resource_Request
+TKT-10678,Unable to access S3,Please check permissions for the user accessing bucket backup-prod.,S3_Access
+TKT-10619,Site-to-site VPN issue,The site-to-site VPN tunnel between our office and AWS is down. Please check and advise.,VPN_Issue
+TKT-10009,High CPU on EC2,EC2 INSTANCE I-260265 IN UAT IS SHOWING CPU UTILIZATION ABOVE 99%.,EC2_Performance
+TKT-10652,HTTPS certificate issue,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10037,Unhealthy host alarm,CloudWatch has triggered an alarm for UnhealthyHostCount on instance i-578634.,CloudWatch_Alert
+TKT-10453,Monitoring alert,An AWS monitoring alert was generated for disk utilization. Please investigate. We noticed this today.,CloudWatch_Alert
+TKT-10254,S3 upload failure,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10304,Request for additional capacity,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10607,Azure VM not responding,The Azure server has stopped responding and users cannot access the application. Kindly investigate ASAP.,Azure_VM_Issue
+TKT-10580,TLS certificate alert,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10588,TLS certificate alert,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10263,Azure server issue,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10298,SSH connection issue,EC2 instance i-725874 is running but SSH connection is failing.,EC2_Access
+TKT-10415,VM connectivity problem,The Azure VM PROD-VM-03 is not responding to connection attempts.,Azure_VM_Issue
+TKT-10151,Azure server issue,Production Azure virtual machine appears to be unreachable.,Azure_VM_Issue
+TKT-10637,Monitoring alert,WE RECEIVED A CLOUDWATCH ALARM FOR UNHEALTHY HOSTS IN THE PRODUCTION ENVIRONMENT.,CloudWatch_Alert
+TKT-10713,EC2 performance issue,EC2 instance i-964996 in production is showing CPU utilization above 85%. This is impacting users.,EC2_Performance
+TKT-10551,Azure VM not responding,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10489,Production server slow,Our application on EC2 is slow and CPU usage is continuously above normal levels. Thanks.,EC2_Performance
+TKT-10148,SSL certificate expiry,The SSL certificate for app.example.com expires in 20 days.,Certificate_Issue
+TKT-10147,Site-to-site VPN issue,Both VPN tunnels are showing down from the AWS side.,VPN_Issue
+TKT-10589,CloudWatch alarm triggered,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10743,Azure server issue,The Azure VM APP-VM-01 is not responding to connection attempts. We noticed this today.,Azure_VM_Issue
+TKT-10602,Server connectivity issue,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10349,AWS alarm notification,An AWS monitoring alert was generated for CPUUtilization. Please investigate.,CloudWatch_Alert
+TKT-10464,Request for additional capacity,Please provision additional cloud capacity for teh production environment.,Resource_Request
+TKT-10326,S3 upload failure,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10187,VPN connectivity problem,Please check teh site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10124,TLS certificate alert,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10684,SSL certificate expiry,Please renew the certificate for app.example.com before it expires.,Certificate_Issue
+TKT-10144,Increase cloud resources,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10764,HTTPS certificate issue,THE SSL CERTIFICATE FOR APP.EXAMPLE.COM EXPIRES IN 20 DAYS.,Certificate_Issue
+TKT-10198,S3 upload failure,Please check permissions for the user accessing bucket finance-reports.,S3_Access
+TKT-10280,Additional compute required,Please provision additional cloud capacity for the production environment.,Resource_Request
+TKT-10294,S3 AccessDenied,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10401,EC2 performance issue,We are seeing high CPU usage on the EC2 server i-717466. Please investigate.,EC2_Performance
+TKT-10123,IPsec tunnel failure,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10184,Increase cloud resources,Please increase the EC2 instance capacity for the production workload.,Resource_Request
+TKT-10203,IPsec tunnel failure,VPN tunnel has gone down and traffic between the networks is failing.,VPN_Issue
+TKT-10439,Azure server issue,The Azure VM APP-VM-01 is not responding to connection attempts.,Azure_VM_Issue
+TKT-10247,Azure VM unreachable,We cannot connect to the Azure VM after the restart.,Azure_VM_Issue
+TKT-10416,Increase cloud resources,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10712,Request for additional capacity,Please provision additional cloud capacity for the production environment. Please check and advise.,Resource_Request
+TKT-10130,SSH connection issue,Unable to connect to EC2 instance i-362778 using SSH.,EC2_Access
+TKT-10403,VPN tunnel down,Both VPN tunnels are showing down from the AWS side. Kindly investigate ASAP.,VPN_Issue
+TKT-10633,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10624,Increase cloud resources,Please provision additional cloud capacity for teh production environment.,Resource_Request
+TKT-10728,EC2 capacity request,Please provision additional cloud capacity for teh production environment. Kindly investigate ASAP.,Resource_Request
+TKT-10220,SSL certificate expiry,Please renew the certificate for login.company.com before it expires.,Certificate_Issue
+TKT-10730,SSH connection issue,Unable to connect to EC2 instance i-715698 using SSH. We noticed this today.,EC2_Access
+TKT-10610,SSH connection issue,EC2 instance i-545668 is running but SSH connection is failing.,EC2_Access
+TKT-10733,AWS alarm notification,An AWS monitoring alert was generated for UnhealthyHostCount. Please investigate.,CloudWatch_Alert
+TKT-10618,EC2 login failure,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10387,IPsec tunnel failure,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10776,Additional compute required,THE CURRENT CAPACITY IS NOT SUFFICIENT FOR THE EXPECTED TRAFFIC. PLEASE INCREASE RESOURCES. KINDLY INVESTIGATE ASAP.,Resource_Request
+TKT-10510,S3 upload failure,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10268,SSL certificate expiry,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10782,Unable to access S3,We are unable to upload files to the S3 bucket due to an access denied error.,S3_Access
+TKT-10442,Unable to access EC2,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10497,High CPU on EC2,The CPU alarm for instance i-324682 keeps triggering. CPU is around 95 percent.,EC2_Performance
+TKT-10113,Production server slow,We are seeing high CPU usage on the EC2 server i-140163. Please investigate. This is impacting users.,EC2_Performance
+TKT-10233,EC2 performance issue,Our application on EC2 is slow and CPU usage is continuously above normal levels.,EC2_Performance
+TKT-10699,VPN tunnel down,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10608,EC2 capacity request,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10374,Unable to access S3,S3 access is failing for the service account after the recent policy change. Please let us know the next steps.,S3_Access
+TKT-10234,EC2 login failure,Unable to connect to EC2 instance i-434367 using SSH.,EC2_Access
+TKT-10634,Unable to access EC2,EC2 instance i-199346 is running but SSH connection is failing.,EC2_Access
+TKT-10318,S3 permission issue,We are unable to upload files to the S3 bucket due to an access denied error. Thanks.,S3_Access
+TKT-10411,IPsec tunnel failure,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10718,S3 permission issue,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10359,VM connectivity problem,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10259,VPN tunnel down,THE SITE-TO-SITE VPN TUNNEL BETWEEN OUR OFFICE AND AWS IS DOWN.,VPN_Issue
+TKT-10628,Certificate renewal required,Please renew the certificate for portal.company.com before it expires. Kindly investigate ASAP.,Certificate_Issue
+TKT-10283,VPN connectivity problem,The site-to-site VPN tunnel between our office and AWS is down. Kindly investigate ASAP.,VPN_Issue
+TKT-10377,EC2 performance issue,We are seeing high CPU usage on the EC2 server i-883997. Please investigate.,EC2_Performance
+TKT-10385,EC2 performance issue,EC2 performance has degraded and the instance is reporting unusually high CPU utilization. Thanks.,EC2_Performance
+TKT-10225,EC2 performance issue,The CPU alarm for instance i-794622 keeps triggering. CPU is around 90 percent.,EC2_Performance
+TKT-10760,Additional compute required,Requesting an increase in AWS compute resources for the application.,Resource_Request
+TKT-10658,EC2 login failure,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10473,High CPU on EC2,EC2 performance has degraded and teh instance is reporting unusually high CPU utilization.,EC2_Performance
+TKT-10348,Certificate renewal required,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10506,EC2 login failure,Unable to connect to EC2 instance i-696487 using SSH.,EC2_Access
+TKT-10640,Additional compute required,Requesting an increase in AWS compute resources for the application.,Resource_Request
+TKT-10789,CloudWatch alarm triggered,CloudWatch has triggered an alarm for StatusCheckFailed on instance i-363647.,CloudWatch_Alert
+TKT-10741,CloudWatch alarm triggered,CloudWatch is showing an alarm state for the application monitoring metric.,CloudWatch_Alert
+TKT-10723,VPN tunnel down,BOTH VPN TUNNELS ARE SHOWING DOWN FROM THE AWS SIDE.,VPN_Issue
+TKT-10620,HTTPS certificate issue,Please renew the certificate for api.company.com before it expires.,Certificate_Issue
+TKT-10686,S3 AccessDenied,The application cannot read objects from the S3 bucket. Please check and advise.,S3_Access
+TKT-10646,Unable to access S3,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10679,VM connectivity problem,Production Azure virtual machine appears to be unreachable.,Azure_VM_Issue
+TKT-10557,CloudWatch alarm triggered,CloudWatch has triggered an alarm for StatusCheckFailed on instance i-454140.,CloudWatch_Alert
+TKT-10578,Server connectivity issue,We cannot access teh production EC2 server from the jump server.,EC2_Access
+TKT-10086,S3 AccessDenied,Please check permissions for the user accessing bucket customer-data-prod.,S3_Access
+TKT-10243,VPN tunnel down,Both VPN tunnels are showing down from the AWS side.,VPN_Issue
+TKT-10160,Request for additional capacity,Please increase the EC2 instance capacity for the production workload.,Resource_Request
+TKT-10525,Monitoring alert,We received an AWS notification regarding an unhealthy host count alarm. Thanks.,CloudWatch_Alert
+TKT-10036,Certificate renewal required,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10541,Monitoring alert,An AWS monitoring alert was generated for StatusCheckFailed. Please investigate.,CloudWatch_Alert
+TKT-10171,VPN tunnel down,VPN tunnel has gone down and traffic between teh networks is failing.,VPN_Issue
+TKT-10655,Azure VM not responding,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10688,EC2 capacity request,Requesting an increase in AWS compute resources for the application. Kindly investigate ASAP.,Resource_Request
+TKT-10680,Additional compute required,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10753,Production server slow,EC2 instance i-878399 in UAT is showing CPU utilization above 95%. This is impacting users.,EC2_Performance
+TKT-10096,EC2 capacity request,We need additional compute capacity for the upcoming workload. Thanks.,Resource_Request
+TKT-10564,HTTPS certificate issue,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10241,High CPU on EC2,Production EC2 instance has been running at very high CPU for the last 1 hours. Please check and advise.,EC2_Performance
+TKT-10575,Azure server issue,Please investigate the connectivity issue with Azure VM APP-VM-01.,Azure_VM_Issue
+TKT-10461,Unhealthy host alarm,CloudWatch has triggered an alarm for StatusCheckFailed on instance i-593869.,CloudWatch_Alert
+TKT-10554,Server connectivity issue,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10705,CPU alarm,Production EC2 instance has been running at very high CPU for the last 8 hours.,EC2_Performance
+TKT-10207,Azure VM not responding,The Azure VM APP-VM-01 is not responding to connection attempts. Please let us know teh next steps.,Azure_VM_Issue
+TKT-10393,High CPU on EC2,We are seeing high CPU usage on the EC2 server i-878427. Please investigate.,EC2_Performance
+TKT-10398,Unable to access S3,The S3 bucket is reachable but the application does not have permission to access objects.,S3_Access
+TKT-10681,CPU alarm,WE ARE SEEING HIGH CPU USAGE ON THE EC2 SERVER I-461940. PLEASE INVESTIGATE. THANKS.,EC2_Performance
+TKT-10218,Unable to access EC2,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10005,CloudWatch alarm triggered,CloudWatch has triggered an alarm for UnhealthyHostCount on instance i-498591.,CloudWatch_Alert
+TKT-10643,VPN connectivity problem,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10717,CloudWatch alarm triggered,We received a CloudWatch alarm for unhealthy hosts in the production environment. Please let us know the next steps.,CloudWatch_Alert
+TKT-10613,Unhealthy host alarm,CloudWatch is showing an alarm state for the application monitoring metric.,CloudWatch_Alert
+TKT-10547,VPN tunnel down,Please check teh site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10099,Site-to-site VPN issue,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10574,S3 permission issue,User is receiving AccessDenied while accessing the S3 bucket backup-prod.,S3_Access
+TKT-10407,Azure VM unreachable,The Azure server has stopped responding and users cannot access the application. This is impacting users.,Azure_VM_Issue
+TKT-10503,Azure VM not responding,The Azure VM APP-VM-01 is not responding to connection attempts.,Azure_VM_Issue
+TKT-10048,EC2 capacity request,We need additional compute capacity for the upcoming workload. Kindly investigate ASAP.,Resource_Request
+TKT-10033,CPU alarm,We are seeing high CPU usage on the EC2 server i-540869. Please investigate.,EC2_Performance
+TKT-10201,CPU alarm,We are seeing high CPU usage on the EC2 server i-746081. Please investigate.,EC2_Performance
+TKT-10135,Azure VM not responding,PRODUCTION AZURE VIRTUAL MACHINE APPEARS TO BE UNREACHABLE.,Azure_VM_Issue
+TKT-10028,HTTPS certificate issue,The SSL certificate for login.company.com expires in 5 days.,Certificate_Issue
+TKT-10707,VPN connectivity problem,Our customer reports that the IPsec VPN connection is not established. Kindly investigate ASAP.,VPN_Issue
+TKT-10231,Azure server issue,The Azure VM AZ-APP-01 is not responding to connection attempts.,Azure_VM_Issue
+TKT-10490,Unable to access EC2,EC2 instance i-270948 is running but SSH connection is failing.,EC2_Access
+TKT-10379,Site-to-site VPN issue,The AWS VPN connection is unstable and the tunnel keeps disconnecting.,VPN_Issue
+TKT-10289,Production server slow,EC2 instance i-656127 in production is showing CPU utilization above 97%. We noticed this today.,EC2_Performance
+TKT-10419,IPsec tunnel failure,The AWS VPN connection is unstable and the tunnel keeps disconnecting. This is impacting users.,VPN_Issue
+TKT-10675,Site-to-site VPN issue,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10392,Additional compute required,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10593,High CPU on EC2,We are seeing high CPU usage on teh EC2 server i-450964. Please investigate. Kindly investigate ASAP.,EC2_Performance
+TKT-10499,VPN tunnel down,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10139,Site-to-site VPN issue,Both VPN tunnels are showing down from the AWS side.,VPN_Issue
+TKT-10063,Azure VM not responding,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
+TKT-10472,Increase cloud resources,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10648,Increase cloud resources,Please increase the EC2 instance capacity for the production workload.,Resource_Request
+TKT-10129,CPU alarm,We are seeing high CPU usage on the EC2 server i-553633. Please investigate.,EC2_Performance
+TKT-10779,VPN connectivity problem,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10521,Production server slow,We are seeing high CPU usage on the EC2 server i-480631. Please investigate.,EC2_Performance
+TKT-10065,EC2 performance issue,The CPU alarm for instance i-851413 keeps triggering. CPU is around 97 percent.,EC2_Performance
+TKT-10015,Azure VM unreachable,We cannot connect to the Azure VM after the restart. Please let us know the next steps.,Azure_VM_Issue
+TKT-10157,Monitoring alert,CloudWatch has triggered an alarm for disk utilization on instance i-575458.,CloudWatch_Alert
+TKT-10041,High CPU on EC2,The CPU alarm for instance i-330080 keeps triggering. CPU is around 95 percent.,EC2_Performance
+TKT-10493,CloudWatch alarm triggered,An AWS monitoring alert was generated for CPUUtilization. Please investigate. Kindly investigate ASAP.,CloudWatch_Alert
+TKT-10380,SSL certificate expiry,Please renew the certificate for api.company.com before it expires.,Certificate_Issue
+TKT-10188,HTTPS certificate issue,Certificate expiry notification received for api.company.com. Thanks.,Certificate_Issue
+TKT-10217,Production server slow,Production EC2 instance has been running at very high CPU for the last 1 hours.,EC2_Performance
+TKT-10053,CloudWatch alarm triggered,CloudWatch is showing an alarm state for the application monitoring metric.,CloudWatch_Alert
+TKT-10338,EC2 login failure,We cannot access the production EC2 server from the jump server.,EC2_Access
+TKT-10296,Request for additional capacity,Please provision additional cloud capacity for teh production environment.,Resource_Request
+TKT-10702,S3 AccessDenied,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10252,TLS certificate alert,The application certificate will expire soon and needs to be replaced.,Certificate_Issue
+TKT-10462,Unable to access S3,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10456,Request for additional capacity,Requesting an increase in AWS compute resources for the application.,Resource_Request
+TKT-10798,S3 permission issue,We are unable to upload files to the S3 bucket due to an access denied error. We noticed this today.,S3_Access
+TKT-10270,S3 AccessDenied,We are unable to upload files to the S3 bucket due to an access denied error. Please let us know the next steps.,S3_Access
+TKT-10202,Server connectivity issue,Connection to the EC2 server is timing out. Please check access. We noticed this today.,EC2_Access
+TKT-10162,EC2 login failure,We are getting a connection refused error while trying to access the instance.,EC2_Access
+TKT-10556,SSL certificate expiry,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10402,SSH connection issue,Unable to connect to EC2 instance i-293818 using SSH.,EC2_Access
+TKT-10703,Azure VM not responding,PRODUCTION AZURE VIRTUAL MACHINE APPEARS TO BE UNREACHABLE. THIS IS IMPACTING USERS.,Azure_VM_Issue
+TKT-10477,Monitoring alert,We received an AWS notification regarding an unhealthy host count alarm.,CloudWatch_Alert
+TKT-10106,SSH connection issue,EC2 instance i-185461 is running but SSH connection is failing.,EC2_Access
+TKT-10566,S3 AccessDenied,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10390,S3 permission issue,Please check permissions for the user accessing bucket customer-data-prod. Thanks.,S3_Access
+TKT-10002,EC2 login failure,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10768,Request for additional capacity,Please scale the environment by adding another EC2 instance.,Resource_Request
+TKT-10562,Server connectivity issue,Connection to the EC2 server is timing out. Please check access.,EC2_Access
+TKT-10081,EC2 performance issue,EC2 performance has degraded and the instance is reporting unusually high CPU utilization. Kindly investigate ASAP.,EC2_Performance
+TKT-10206,S3 permission issue,Please check permissions for the user accessing bucket finance-reports.,S3_Access
+TKT-10035,VPN connectivity problem,Please check the site-to-site VPN. The tunnel status changed to DOWN.,VPN_Issue
+TKT-10509,AWS alarm notification,We received a CloudWatch alarm for unhealthy hosts in the production environment.,CloudWatch_Alert
+TKT-10428,HTTPS certificate issue,Please renew teh certificate for login.company.com before it expires. We noticed this today.,Certificate_Issue
+TKT-10455,VM connectivity problem,Production Azure virtual machine appears to be unreachable.,Azure_VM_Issue
+TKT-10367,Azure server issue,Production Azure virtual machine appears to be unreachable. We noticed this today.,Azure_VM_Issue
+TKT-10092,Certificate renewal required,Certificate expiry notification received for login.company.com. This is impacting users.,Certificate_Issue
+TKT-10340,TLS certificate alert,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10565,Unhealthy host alarm,We received an AWS notification regarding an unhealthy host count alarm.,CloudWatch_Alert
+TKT-10346,Unable to access EC2,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10242,SSH connection issue,Unable to connect to EC2 instance i-504684 using SSH.,EC2_Access
+TKT-10014,S3 AccessDenied,User is receiving AccessDenied while accessing teh S3 bucket application-logs-prod. We noticed this today.,S3_Access
+TKT-10316,HTTPS certificate issue,The HTTPS certificate for the production endpoint needs renewal.,Certificate_Issue
+TKT-10601,High CPU on EC2,EC2 instance i-458143 in UAT is showing CPU utilization above 99%.,EC2_Performance
+TKT-10388,Certificate renewal required,Certificate expiry notification received for portal.company.com.,Certificate_Issue
+TKT-10274,Unable to access EC2,We cannot access the production EC2 server from the jump server.,EC2_Access
+TKT-10167,Azure VM not responding,Please investigate the connectivity issue with Azure VM WEB-VM-02.,Azure_VM_Issue
+TKT-10794,Unable to access EC2,The team is unable to log in to the EC2 instance after the latest change.,EC2_Access
+TKT-10647,VM connectivity problem,Please investigate the connectivity issue with Azure VM WEB-VM-02.,Azure_VM_Issue
+TKT-10485,Unhealthy host alarm,WE RECEIVED A CLOUDWATCH ALARM FOR UNHEALTHY HOSTS IN THE PRODUCTION ENVIRONMENT. WE NOTICED THIS TODAY.,CloudWatch_Alert
+TKT-10783,Azure VM not responding,Please investigate the connectivity issue with Azure VM PROD-VM-03.,Azure_VM_Issue
+TKT-10505,Production server slow,Production EC2 instance has been running at very high CPU for the last 4 hours.,EC2_Performance
+TKT-10244,HTTPS certificate issue,Certificate expiry notification received for api.company.com. Please check and advise.,Certificate_Issue
+TKT-10567,Azure server issue,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10563,IPsec tunnel failure,The site-to-site VPN tunnel between our office and AWS is down.,VPN_Issue
+TKT-10687,Azure VM unreachable,We cannot connect to the Azure VM after the restart.,Azure_VM_Issue
+TKT-10190,S3 upload failure,S3 access is failing for the service account after the recent policy change.,S3_Access
+TKT-10700,Certificate renewal required,The SSL certificate for api.company.com expires in 2 days.,Certificate_Issue
+TKT-10476,SSL certificate expiry,Please renew the certificate for api.company.com before it expires.,Certificate_Issue
+TKT-10682,Server connectivity issue,We are getting a connection refused error while trying to access the instance.,EC2_Access
+TKT-10511,Azure VM unreachable,The Azure server has stopped responding and users cannot access the application.,Azure_VM_Issue
+TKT-10059,IPsec tunnel failure,VPN tunnel has gone down and traffic between the networks is failing. Please check and advise.,VPN_Issue
+TKT-10475,IPsec tunnel failure,Our customer reports that the IPsec VPN connection is not established.,VPN_Issue
+TKT-10561,Production server slow,Production EC2 instance has been running at very high CPU for the last 8 hours. Please let us know the next steps.,EC2_Performance
+TKT-10748,HTTPS certificate issue,The SSL certificate for api.company.com expires in 7 days.,Certificate_Issue
+TKT-10253,AWS alarm notification,An AWS monitoring alert was generated for disk utilization. Please investigate. Thanks.,CloudWatch_Alert
+TKT-10022,Unable to access S3,S3 access is failing for the service account after the recent policy change. Kindly investigate ASAP.,S3_Access
+TKT-10314,SSH connection issue,We cannot access the production EC2 server from the jump server.,EC2_Access
+TKT-10460,Certificate renewal required,The application certificate will expire soon and needs to be replaced. We noticed this today.,Certificate_Issue
+TKT-10161,EC2 performance issue,EC2 instance i-948799 in prod is showing CPU utilization above 97%.,EC2_Performance
+TKT-10277,Unhealthy host alarm,The CloudWatch alarm has changed to ALARM state repeatedly. This is impacting users.,CloudWatch_Alert
+TKT-10192,Additional compute required,Please provision additional cloud capacity for the production environment. Please let us know the next steps.,Resource_Request
+TKT-10386,Unable to access EC2,Unable to connect to EC2 instance i-463625 using SSH.,EC2_Access
+TKT-10414,Unable to access S3,The application cannot read objects from the S3 bucket.,S3_Access
+TKT-10492,SSL certificate expiry,Please renew the certificate for portal.company.com before it expires.,Certificate_Issue
+TKT-10344,EC2 capacity request,Please increase the EC2 instance capacity for the production workload.,Resource_Request
+TKT-10770,Server connectivity issue,EC2 instance i-832603 is running but SSH connection is failing.,EC2_Access
+TKT-10309,Monitoring alert,We received an AWS notification regarding an unhealthy host count alarm.,CloudWatch_Alert
+TKT-10662,S3 upload failure,Please check permissions for the user accessing bucket customer-data-prod.,S3_Access
+TKT-10131,VPN connectivity problem,Both VPN tunnels are showing down from the AWS side.,VPN_Issue
+TKT-10664,Additional compute required,We need additional compute capacity for the upcoming workload.,Resource_Request
+TKT-10100,HTTPS certificate issue,Please renew the certificate for portal.company.com before it expires.,Certificate_Issue
+TKT-10373,Monitoring alert,The CloudWatch alarm has changed to ALARM state repeatedly. Please check and advise.,CloudWatch_Alert
+TKT-10088,Additional compute required,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10459,Site-to-site VPN issue,Our customer reports that the IPsec VPN connection is not established. Please check and advise.,VPN_Issue
+TKT-10331,VPN connectivity problem,The site-to-site VPN tunnel between our office and AWS is down. Kindly investigate ASAP.,VPN_Issue
+TKT-10215,Azure VM unreachable,Please investigate the connectivity issue with Azure VM WEB-VM-02. Please check and advise.,Azure_VM_Issue
+TKT-10467,IPsec tunnel failure,VPN tunnel has gone down and traffic between teh networks is failing.,VPN_Issue
+TKT-10122,SSH connection issue,Connection to the EC2 server is timing out. Please check access. Thanks.,EC2_Access
+TKT-10615,Azure VM not responding,Production Azure virtual machine appears to be unreachable.,Azure_VM_Issue
+TKT-10021,AWS alarm notification,The CloudWatch alarm has changed to ALARM state repeatedly. Please let us know the next steps.,CloudWatch_Alert
+TKT-10701,CloudWatch alarm triggered,CloudWatch has triggered an alarm for UnhealthyHostCount on instance i-234041.,CloudWatch_Alert
+TKT-10072,EC2 capacity request,The current capacity is not sufficient for the expected traffic. Please increase resources.,Resource_Request
+TKT-10107,Site-to-site VPN issue,Please check the site-to-site VPN. The tunnel status changed to DOWN. This is impacting users.,VPN_Issue
+TKT-10271,Azure server issue,The Azure VM PROD-VM-03 is not responding to connection attempts.,Azure_VM_Issue
+TKT-10436,TLS certificate alert,We received an alert that the TLS certificate is approaching expiry.,Certificate_Issue
+TKT-10103,VM connectivity problem,Azure VM is running in the portal but the application is not reachable.,Azure_VM_Issue
